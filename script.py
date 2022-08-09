@@ -1,33 +1,35 @@
 class Script(object):
-    START_TXT = """Hello {},
+    START_TXT = """Habari 👋 {},
 
-My name is <a href=https://t.me/{}>{}</a>!
+jina langu <a href=https://t.me/{}>{}</a>!
 
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
+<b>Ninaweza kutoa Filamu. Kijibu filter Kiotomatiki Telegraph. Ni Rahisi Kunitumia :)
 
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
+Niongeze kwenye Kikundi chako Kama Msimamizi, Bonyeza Kitufe cha Usaidizi Kwa Maelezo Zaidi...</b>"""
 
-    HELP_TXT = """Hey {}
 
-<b>Here Is The Help For My Commands.</b>"""
+
+    HELP_TXT = """vipi? {}
+
+<b>Here Hapa Ndio Msaada Kwa Amri Zangu..</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/zautekm'>Zaute Km</a>
-➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
-➥ Language: Python 𝟹
+➥ mtengenezaji: <a href='https://t.me/kibandainfo'>roger nigar m</a>
+➥ Library: <a href='https://t.me/kibandainfo'>Pyrogram</a>
+➥ Lugha: Python 𝟹
 ➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
 ➥ Bot Server: <a href='https://heroku.com'>Heroku</a>
 ➥ Build Status: v2.0.1 [ Beta ]"""
 
-    SOURCE_TXT = """<b>Source:</b>
-IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+    SOURCE_TXT = """<b>chanzo:</b>
+IMDb imenipa support kubwa nashukuru 🙏.
+chanzo: <a href='https://t.me/kibandainfo'>GitHub - Click here 👈</a>
 
-<b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
+<b>ROGER OFFICIAL TECH:</b>
+- <a href='https://t.me/kibandainfo'>roger project</a>
 
-<b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
+<b>UNGA MKONO KIKUNDI</b>
+- <a href='https://t.me/kibandainfo'>jiunge ulimwengu wa burudani</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -54,7 +56,7 @@ Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<code>[Button Text](buttonurl:https://t.me/kibandainfo)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
