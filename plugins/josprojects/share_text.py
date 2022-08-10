@@ -18,12 +18,12 @@ async def share_text(client, message):
         input_text = reply.text or reply.caption
     else:
         await message.reply_text(
-            text=f"**Notice:**\n\n1. Reply Any Messages.\n2. No Media Support\n\n**Any Question Join Support Chat**",
+            text=f"**Notice:**\n\n1. Reply Any Messages.\n2. No Media Support\n\n**una swali lolote jiunge na Channel yetu hapo chini**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            "Support Chat", url=f"https://t.me/{SUPPORT_CHAT}")
+                            "Support Channel", url=f"https://t.me/kibandainfo")
                     ]                
                 ]
             ),
