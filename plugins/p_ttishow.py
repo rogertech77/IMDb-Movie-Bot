@@ -22,7 +22,7 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             # Inspired from a boat of a banana tree
             buttons = [[
-                InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+                InlineKeyboardButton('Msaada', url=f'https://t.me/kibandainfo')
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -37,8 +37,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('Updates 📢', url='https://t.me/josprojects/221')
+            InlineKeyboardButton('ℹ️ Msaada', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('Mapya 📢', url='https://t.me/kibandainfo')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -49,7 +49,7 @@ async def save_group(bot, message):
         if settings["welcome"]:
             for u in message.new_chat_members:
                 buttons = [[
-                InlineKeyboardButton('👉 ⚠️ Press me... 🥰 👈', url="https://t.me/josprojects")
+                InlineKeyboardButton('👉 ⚠️ Press me... 🥰 👈', url="https://t.me/kibandainfo")
             ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
@@ -57,7 +57,7 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_text(
-                text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>👇 Official Projects Channels 👇</b>",
+                text=f"<b>👋 Habari! {u.mention},</b> karibu <b>{message.chat.title}</b>\n\n<b>👇 Channels muhimu 👇</b>",
                 disable_web_page_preview = True,
                 reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -72,7 +72,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('Msaada', url=f'https://t.me/kibandainfo')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -111,7 +111,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('Msaada', url=f'https://t.me/kibandainfo')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
